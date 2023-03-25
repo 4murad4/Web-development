@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    line-height: 40px;
+}
+
+.item {
+    margin: 20px;
+}
+
+button {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 60px 0;
+}
+
+.card {
+    margin: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-contact {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-contact > h1 {
+    text-align: center;
+}
+
+.item-contact-check {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+}
+
