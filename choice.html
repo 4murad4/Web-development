@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar bg-dark navbar-dark navbar-expand-sm mb-5" id="navbar-example2">
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm mb-3" id="navbar-example2">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">Web-development</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
@@ -112,11 +112,11 @@
             let allChecked = document.querySelectorAll('input[type="checkbox"]:checked');
         
             let sum = 0;
-            allChecked.forEach(function (i) {
+            allChecked.forEach( (i) => {
                 sum += Number(i.value);
             })
 
-            document.getElementById('value').innerHTML = sum + ' $ for total online courses';
+            document.getElementById('value').innerHTML = `${sum} $ for total online courses`;
         }
     </script>
 </body>
